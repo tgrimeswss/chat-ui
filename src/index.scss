@@ -14,8 +14,44 @@ body {
   }
 }
 
+.chatView {
+  color: black;
+  margin-top: 20px;
+}
 
+.margin-20 {
+  margin: 20px;
+}
 
+.sentMessagesBox {
+  height:400px;
+  border: solid black 1px;
+}
 
+.textLeft {
+  text-align: left;
+}
 
+.textBox,input {
+  background-color: white;
+}
 
+.textCenter {
+  text-align: center;
+}
+
+.border {
+  border: solid #e5e5e5 1px;
+}
+
+.noPadding {
+  padding:0px;
+}
+
+.contentBoxes {
+  min-height:200px;
+}
+
+.fullWidth {
+  width:100%;
+}

@@ -1,13 +1,15 @@
-
-//This is then entry point for your app. Do as you wish.
-
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
+import reducer from './reducers/index'
 import App from "./components";
 import io from "socket.io-client";
+import {Provider} from 'react-redux'
+import {createStore} from 'redux'
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export const store = createStore(reducer)
+
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById("root"));
 
 
 //connecting to Socket.IO chat server
