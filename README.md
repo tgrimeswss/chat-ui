@@ -3,8 +3,10 @@
 ### To run this application
 
 (PLEASE HAVE NODE INSTALLED ON YOUR OPERATING MACHINE!!! Visit nodejs.org)
-Download this git, change into the proper downloaded directory on your local
-machine, then run the following commands
+- Download this git 
+- Change into the proper downloaded directory on your local
+machine
+- Then run the following commands
 
 1. **npm install** (Will install all node packages to run the application)
 2. **npm run start** (Will boot the applicaiton and host it on local port 3000)
