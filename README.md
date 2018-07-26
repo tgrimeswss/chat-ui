@@ -1,4 +1,4 @@
-# Spot.IM Chat Application
+# Chat Application
 
 ### To run this application
 
